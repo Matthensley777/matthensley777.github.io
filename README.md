@@ -28,3 +28,6 @@
 # Page footer
 
 ## Each page should have the same footer information. Put whatever information you like in the footer.
+
+part 2
+
