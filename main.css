@@ -31,3 +31,25 @@ a:hover {
 a:active {
 	font-size: 25px;
 }
+
+#blogcontainer {
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.blog {
+	border: solid black 2px;
+	max-width: 300px;
+	/*max-height: 400px;*/
+	margin: 5px;
+	padding: 5px;
+}
+
+.title {
+	text-align: center;
+}
+
+.date {
+	text-align: center
+}
