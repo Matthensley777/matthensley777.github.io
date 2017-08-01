@@ -42,7 +42,7 @@ var blogPost = [
 
 var blogOutPut = document.getElementById("blogHolder");
 for (var counter = 0; counter < blogPost.length; counter++) {
-    blogOutPut.innerHTML += `<div><h2>${blogPost[counter].title}</h2>
+    blogOutPut.innerHTML += `<div class="blogHolder"><h2>${blogPost[counter].title}</h2>
     <header><h3>${blogPost[counter].blog}</h3></header> <section><p>${blogPost[counter].date}</p>
     <img class="grandChild" src="${blogPost[counter].image}"/></section>
     </div>`;

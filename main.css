@@ -32,13 +32,13 @@ a:active {
 	font-size: 25px;
 }
 
-#blogcontainer {
+#blogHolder {
 	display: inline-flex;
 	flex-wrap: wrap;
 	justify-content: center;
 }
 
-.blog {
+.blogHolder {
 	border: solid black 2px;
 	max-width: 300px;
 	/*max-height: 400px;*/
