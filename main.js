@@ -17,8 +17,8 @@ var blogPost = [
     {
         title: "Week 3 blog post",
         id: "blog3",
-        blog: "Chuck Norris doesn't churn butter. He roundhouse kicks the cows and the butter comes straight out, Chuck Norris originally appeared in the Street Fighter II video game, but was removed by Beta Testers because every button caused him to do a roundhouse kick. When asked bout this glitch, Norris replied, Thats no glitch., Chuck Norris doesnt go hunting... CHUCK NORRIS GOES KILLING, Someone once videotaped Chuck Norris getting pissed off. It was called Walker Texas Chain Saw Massacre. Chuck Norris once tripped over the Rocky Mountains and fell west... we now call it the Grand Canyon There is no theory of evolution. Just a list of creatures Chuck Norris has allowed to live. I am Chuck Norris, and I approve this roundhouse kick Chuck Norris doesn't wash his clothes, he disembowels them, A Handicapped parking sign does not signify that this spot is for handicapped people. It is actually in fact a warning, that the spot belongs to Chuck Norris and that you will be handicapped if you park there. When Chuck Norris does a pushup, he isn't lifting himself up, he's pushing the Earth down.",
-        date: "10/07/17"
+        blog: "This week we learned about event listeners. We had 3 assignments that we used event listeners on, Dynamic Cards, Guinea Pig, and WYSIWYG.  WYSIWYG was by far the most challenging, there was a lot of layers to it.  All in all I feel like I have a pretty good grasp on event listeners at this point.",
+        date: "08/22/17"
     },
 
     {
