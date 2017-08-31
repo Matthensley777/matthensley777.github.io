@@ -1,35 +1,6 @@
 
 body {
-	background-color: #C4D0D3;
-}
-
-nav {
-	display: inline-flex;
-	border: solid black 1px;
-	list-style-type: none;
-	margin: 5px;
-	padding: 5px;
-	background-color: #D5E2E5;
-
-}
-
-a {
-	margin: 5px;
-	padding: 5px;
-	text-decoration: none;
-	color: black;
-	font-size: 20px;
-}
-
-a:hover {
-	background-color: #C9D6D9;
-	color: #2F3233;
-	margin: auto;
-	padding: auto;
-}
-
-a:active {
-	font-size: 25px;
+	background-color: lightgrey;
 }
 
 #blogHolder {
@@ -41,7 +12,6 @@ a:active {
 .blogHolder {
 	border: solid black 2px;
 	max-width: 300px;
-	/*max-height: 400px;*/
 	margin: 5px;
 	padding: 5px;
 }
