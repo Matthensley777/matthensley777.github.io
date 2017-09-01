@@ -7,12 +7,16 @@ function blogDom(blogPost) {
     var blogOutPut = "";
     for (var i = 0; i < blogPost.length; i++) {
         selectedBlog = blogPost;
+        blogOutPut += `<div>`
+        blogOutPut += `<div class="col-md-4">`
+        blogOutPut += `<a href="#" class="thumbnail">`
         blogOutPut += `<div class="blogHolder">`
         blogOutPut += `<h2 class="child">${blogPost[i].title}</h2>`
         blogOutPut += `<header class="child"><p class="grandChild">${blogPost[i].blog}</p></header>` 
         blogOutPut += `<section class="child"><p class="grandChild">${blogPost[i].date}</p>`
         blogOutPut += `<img class="grandChild" src="${blogPost[i].image}"/></section>`
-        blogOutPut += `</div>`;
+        blogOutPut += `<footer>Copyright Matt Hensley</footer>`
+        blogOutPut += `</div></div></a></div>`;
         }
         blogHolder.innerHTML = blogOutPut;
 }
@@ -32,34 +36,5 @@ myBlog.addEventListener("load", forBlog);
 myBlog.addEventListener("error", executThisCodeIfFileErrors);
 myBlog.open("GET", "blog.json");
 myBlog.send();
-
-
-
-
-
-// blogHolder.addEventListener("click", selectBlog);
-
-
-// function selectBlog(e) {
-
-//     var blogs = document.getElementsByClassName("blogHolder");
-//     //looping through the blogs
-//     for (var i = 0; i < blogs.length; i++) {
-//         blogs[i].style.border = "solid black 1px";
-//     }
-
-//     if (e.target.classList.contains("blogHolder")) {
-//         e.target.style.border = "solid black 5px";
-//         selectedBlog = e.target.childNodes[3].childNodes[0]
-//     } else if (e.target.classList.contains("child")) {
-//         e.target.parentNode.style.border = "solid black 5px";
-//         selectedBlog = e.target.parentNode.childNodes[3].childNodes[0]
-//     } else if (e.target.classList.contains("grandChild")) {
-//         e.target.parentNode.parentNode.style.border = "solid black 5px";
-//         selectedBlog = e.target.parentNode.parentNode.childNodes[3].childNodes[0]
-//     };
-// }
-
-
 
 
