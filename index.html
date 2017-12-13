@@ -1,86 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-	<title>Matt's Resume Site</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="./styles/main.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Matt Hensley</title>
+  <link rel="stylesheet" href="./lib/node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" type="text/css" href="./styles/main.css">
 </head>
-<body>
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">Matt Hensley's Resume Site</a>
-    </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-<!--         <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
- -->        <li><a href="index.html">Home</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="blog.html">Blog</a></li>
-      </ul>
-      <form class="navbar-form navbar-left">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
-        </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-    </form>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+<body ng-app="BlogApp">
+  <div ng-include="'./partials/navbar.html'"></div>
+  <div class="col-xs-8 col-xs-offset-2" ng-view></div>
 
+  <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
+  <script type="text/javascript" src="./lib/node_modules/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="./lib/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="./lib/node_modules/angular/angular.min.js"></script>
+  <script type="text/javascript" src="./lib/node_modules/angular-animate/angular-animate.min.js"></script>
+  <script type="text/javascript" src="./lib/node_modules/angular-sanitize/angular-sanitize.min.js"></script>
+  <script type="text/javascript" src="./lib/node_modules/angular-route/angular-route.min.js"></script>
 
+  <script type="text/javascript" src="./javascripts/app.js"></script>
+  <script type="text/javascript" src="./javascripts/AppConstants.js"></script>
+  <script type="text/javascript" src="./javascripts/AppConfig.js"></script>
 
+  <script type="text/javascript" src="./javascripts/services/BlogService.js"></script>
 
-
-<article>
-	<h3>Home Depot 2010-Present</h3>
-		<section>
-			<li>2010 - Started as a cashier, moved to head cashier.</li> 
-			<li>2011 - Paint Associate.</li>
-			<li>2012 - Paint Department Supervisor.</li>
-			<li>Grew paint department sales by 10%.</li> 
-			<li>Reduced shrink from 1.2% to .94%.</li>
-			<li>2014 - 2016 - Electrical Department Supervisor.</li>
-			<li>Grew electrical department sales by 6%.Reduced shrink from .94% to .88%.</li>
-			<li>2016 - Garden Department Supervisor.</li>
-			<li>2016 - Present- Key Carrier.</li>
-			<li>Responsibility include: Interviewing new employees, opening and closing building, conflict resolution, training, and directing employees.</li></p>
-		</section>
-</article>
-<article>
-	<h3>35 North Coffee Co. 2010-2011</h3>
-		<section>
-			<li>Co-founder and Graphic Designer</li>
-		</section>
-</article>
-<article>
-	<h3>A Voice for the Voiceless, South Africa</h3>
-		<section>
-			<li>Co-founder of “A Voice for the Voiceless SA”. An organization specializing in using photography to raise awareness on social issues in Africa:</li>
-            <li>Photo editor for the book “A Voice For Life.”  </li>
-            <li>Covered stories such as: Child Headed Homes, A Fatherless Generation, Human Trafficking, Child Abandonment, Orphans, Street Children, and so on.  </li>
-		</section>
-</article>
-
-<br>
-<footer>Copyright Matt Hensley</footer>
-<script
-  src="https://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<script type="text/javascript" src="./javascripts/main.js"></script>
+  <script type="text/javascript" src="./javascripts/controllers/AboutCtrl.js"></script>
+  <script type="text/javascript" src="./javascripts/controllers/NavCtrl.js"></script>
+  <script type="text/javascript" src="./javascripts/controllers/BlogCtrl.js"></script>
+  <script type="text/javascript" src="./javascripts/controllers/ContactCtrl.js"></script>
+  <script type="text/javascript" src="./javascripts/controllers/ProjectsCtrl.js"></script>
+  
 </body>
+
 </html>

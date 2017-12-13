@@ -1,0 +1,22 @@
+
+<div class="text-center" id="Blogs">
+
+	<div class="input-group input-group-lg col-xs-6 col-xs-offset-3">
+		<span class="input-group-addon glyphicon glyphicon-search" aria-hidden="true"></span>
+		<input type="text" class="form-control" placeholder="Find a Blog" ng-model="searchText">
+	</div>
+
+	<h1>Blogs</h1>
+	<div id="blogs">
+		<div ng-repeat="blog in blogs | filter: searchText" class="col-sm-6 col-md-4">
+  			<div class="thumbnail">
+ 					<h3 class="name">{{blog.title}}</h3>
+   						<p class="details">{{blog.blog}}</p>
+   							<p class="city">{{blog.date}}</p>
+			</div>
+		</div>
+	</div>
+
+	
+
+</div>
