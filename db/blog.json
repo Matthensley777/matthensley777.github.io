@@ -1,54 +1,121 @@
 {
-"blogPost":  [{
-        "title": "Week 1",
-        "id": "blog1",
-        "blog": "This week we learned how to loop through arrays and how to have the array print to DOM. We did projects that had us take 2 arrays and merge them into one, all in all they were pretty easy, I did not cry in the shower this week.",
-        "date": "07/31/17"
-    }, {
-        "title": "Week 2",
-        "id": "blog2",
-        "blog": "This week we worked on a project that generated a coin counter, and a project that converts temperature from Fahrenheit to Celsius and back again.",
-        "date": "08/07/17"
-    }, {
-        "title": "Week 3",
-        "id": "blog3",
-        "blog": "This week we learned about event listeners. We had 3 assignments that we used event listeners on, Dynamic Cards, Guinea Pig, and WYSIWYG.  WYSIWYG was by far the most challenging, there was a lot of layers to it.  All in all I feel like I have a pretty good grasp on event listeners at this point.",
-        "date": "08/22/17"
-    }, {
-        "title": "Week 4",
-        "id": "blog4",
-        "blog": "This week we worked on XHR requests. The great thing about XHR requests is it makes JS code look a little cleaner.  I love pulling an array from a JSON file rather than have a large array in my main file. Our first assignement we pulled from 2 different JSON files that work together to populate the results we wanted.",
-        "date": "08/26/17"
-    }, {
-        "title": "Week 5",
-        "id": "blog5",
-        "blog": "Chuck Norris is so fast, he can run around the world and punch himself in the back of the head, The quickest way to a man's heart is with Chuck Norris' fist, Guns don't kill people. Chuck Norris kills people Crop circles are Chuck Norris' way of telling the world that sometimes corn needs to lie down Chuck Norris once roundhouse kicked someone so hard that his foot broke the speed of light, went back in time, and killed Amelia Earhart while she was flying over the Pacific Ocean Chuck Norris doesn't churn butter. He roundhouse kicks the cows and the butter comes straight out Chuck Norris doesn't wear a watch. HE decides what time it is, Chuck Norris is my Homeboy Fool me once, shame on you. Fool Chuck Norris once and he will roundhouse you in the face.",
-        "date": "10/07/17"
-    }, {
-        "title": "Week 5",
-        "id": "blog5",
-        "blog": "Chuck Norris is so fast, he can run around the world and punch himself in the back of the head, The quickest way to a man's heart is with Chuck Norris' fist, Guns don't kill people. Chuck Norris kills people Crop circles are Chuck Norris' way of telling the world that sometimes corn needs to lie down Chuck Norris once roundhouse kicked someone so hard that his foot broke the speed of light, went back in time, and killed Amelia Earhart while she was flying over the Pacific Ocean Chuck Norris doesn't churn butter. He roundhouse kicks the cows and the butter comes straight out Chuck Norris doesn't wear a watch. HE decides what time it is, Chuck Norris is my Homeboy Fool me once, shame on you. Fool Chuck Norris once and he will roundhouse you in the face.",
-        "date": "10/07/17"
-    }, {
-        "title": "Week 5",
-        "id": "blog5",
-        "blog": "Chuck Norris is so fast, he can run around the world and punch himself in the back of the head, The quickest way to a man's heart is with Chuck Norris' fist, Guns don't kill people. Chuck Norris kills people Crop circles are Chuck Norris' way of telling the world that sometimes corn needs to lie down Chuck Norris once roundhouse kicked someone so hard that his foot broke the speed of light, went back in time, and killed Amelia Earhart while she was flying over the Pacific Ocean Chuck Norris doesn't churn butter. He roundhouse kicks the cows and the butter comes straight out Chuck Norris doesn't wear a watch. HE decides what time it is, Chuck Norris is my Homeboy Fool me once, shame on you. Fool Chuck Norris once and he will roundhouse you in the face.",
-        "date": "10/07/17"
-    }, {
-        "title": "Week 5",
-        "id": "blog5",
-        "blog": "Chuck Norris is so fast, he can run around the world and punch himself in the back of the head, The quickest way to a man's heart is with Chuck Norris' fist, Guns don't kill people. Chuck Norris kills people Crop circles are Chuck Norris' way of telling the world that sometimes corn needs to lie down Chuck Norris once roundhouse kicked someone so hard that his foot broke the speed of light, went back in time, and killed Amelia Earhart while she was flying over the Pacific Ocean Chuck Norris doesn't churn butter. He roundhouse kicks the cows and the butter comes straight out Chuck Norris doesn't wear a watch. HE decides what time it is, Chuck Norris is my Homeboy Fool me once, shame on you. Fool Chuck Norris once and he will roundhouse you in the face.",
-        "date": "10/07/17"
-    }, {
-        "title": "Week 5",
-        "id": "blog5",
-        "blog": "Chuck Norris is so fast, he can run around the world and punch himself in the back of the head, The quickest way to a man's heart is with Chuck Norris' fist, Guns don't kill people. Chuck Norris kills people Crop circles are Chuck Norris' way of telling the world that sometimes corn needs to lie down Chuck Norris once roundhouse kicked someone so hard that his foot broke the speed of light, went back in time, and killed Amelia Earhart while she was flying over the Pacific Ocean Chuck Norris doesn't churn butter. He roundhouse kicks the cows and the butter comes straight out Chuck Norris doesn't wear a watch. HE decides what time it is, Chuck Norris is my Homeboy Fool me once, shame on you. Fool Chuck Norris once and he will roundhouse you in the face.",
-        "date": "10/07/17"
-    }, {
-        "title": "Week 5",
-        "id": "blog5",
-        "blog": "Chuck Norris is so fast, he can run around the world and punch himself in the back of the head, The quickest way to a man's heart is with Chuck Norris' fist, Guns don't kill people. Chuck Norris kills people Crop circles are Chuck Norris' way of telling the world that sometimes corn needs to lie down Chuck Norris once roundhouse kicked someone so hard that his foot broke the speed of light, went back in time, and killed Amelia Earhart while she was flying over the Pacific Ocean Chuck Norris doesn't churn butter. He roundhouse kicks the cows and the butter comes straight out Chuck Norris doesn't wear a watch. HE decides what time it is, Chuck Norris is my Homeboy Fool me once, shame on you. Fool Chuck Norris once and he will roundhouse you in the face.",
-        "date": "10/07/17"
+    "blogPost": {
+        "blog0": {
+            "title": "Week 1",
+            "id": "blog1",
+            "blog": "This week we learned how to loop through arrays and how to have the array print to DOM. We did projects that had us take 2 arrays and merge them into one, all in all they were pretty easy, I did not cry in the shower this week.",
+            "date": "07/31/17"
+        },
+        "blog1": {
+            "title": "Week 2",
+            "id": "blog2",
+            "blog": "This week we worked on a project that generated a coin counter, and a project that converts temperature from Fahrenheit to Celsius and back again.",
+            "date": "08/07/17"
+        },
+        "blog2": {
+            "title": "Week 3",
+            "id": "blog3",
+            "blog": "This week we learned about event listeners. We had 3 assignments that we used event listeners on, Dynamic Cards, Guinea Pig, and WYSIWYG.  WYSIWYG was by far the most challenging, there was a lot of layers to it.  All in all I feel like I have a pretty good grasp on event listeners at this point.",
+            "date": "08/22/17"
+        },
+        "blog3": {
+            "title": "Week 4",
+            "id": "blog4",
+            "blog": "This week we worked on XHR requests. The great thing about XHR requests is it makes JS code look a little cleaner.  I love pulling an array from a JSON file rather than have a large array in my main file. Our first assignement we pulled from 2 different JSON files that work together to populate the results we wanted.",
+            "date": "08/26/17"
+        },
+        "blog4": {
+            "title": "Week 5",
+            "id": "blog5",
+            "blog": "This week we learned about bootstrap. Bootstrap is a platform that allows universal styling.  It's a little generic looking but it is a good introduction to that type of styling.",
+            "date": "09/18/17"
+        },
+        "blog5": {
+            "title": "Week 6",
+            "id": "blog6",
+            "blog": "We learned about Browserfy this week.  Working on 4-5 different javascript files is going to take getting used to, I do like that everything is separated, but It's difficult not being able to see all the code right infront of me at all times.",
+            "date": "09/30/17"
+        },
+        "blog6": {
+            "title": "Week 7",
+            "id": "blog7",
+            "blog": "We did a group project this week called Chatty, it's a site that is like a group message board.  It has different users, and different preferences that each user can set. It was a good project overall, a little trying at times.  We also learned about promises, so far they are not to bad, but time will tell.",
+            "date": "10/07/17"
+        },
+        "blog7": {
+            "title": "Week 8",
+            "id": "blog8",
+            "blog": "We learned about APIs this week. The most difficult thing I find about APIs is what to do with the data once you get it back, it's going to take getting used to pulling data back from something besides a local JSON file.",
+            "date": "10/24/17"
+        },
+        "blog8": {
+            "title": "Week 9",
+            "id": "blog9",
+            "blog": "Today we learned about firebase, firebase is a place you can deploy sites you've created as well as put data to pull back to a site.  I also like that you can create a login feature for the site so you can keep track of who is loging in.",
+            "date": "10/31/17"
+        },
+        "blog9": {
+            "title": "Week 10",
+            "id": "blog10",
+            "blog": "We did a group project this week called theme parks, we pulled data from firebase to create a theme park website.  It was a challenging project in that they kept changing the rules, JSON, and how it was supposed to layout.",
+            "date": "10/07/17"
+        },
+        "blog10": {
+            "title": "Week 11",
+            "id": "blog11",
+            "blog": "We learned Angular this week, like Browserfy, it is several files rather than one, the difference is there is also an equal amounto f HTML files as well as service files which are used to pulling in data to use on the controller files.  It is a lot to look at and I find it easy to loose track of where I am on the projects but it seems very real world and useful.",
+            "date": "10/07/17"
+        },
+        "blog11": {
+            "title": "Week 12",
+            "id": "blog12",
+            "blog": "We did our Capstone this week, it's our final project. My Capstone is a photo site called Photo Destination, it allows a user to upload images, favorite other users images and delete and edit your personal images.  Right now I am working on image upload which will allow a user to upload an image without copying a URL.",
+            "date": "10/07/17"
+        }
+    },
+    "Projects": {
+        "Project0": {
+            "Title": "Wysiwyg",
+            "Description": "On Readme at repo.",
+            "img": "https://github.com/Matthensley777/wysiwygE6/blob/master/images/Screen%20Shot%202017-08-21%20at%206.57.02%20PM.png?raw=true",
+            "Link": "https://github.com/Matthensley777/wysiwygE6",
+            "projectId": "1"
+        },
+        "Project1": {
+            "Title": "Iife-Sandwich",
+            "Description": "Create a sandwich generator using iifes.",
+            "img": "https://github.com/Matthensley777/iife-sandwich/blob/master/images/Screen%20Shot%202017-09-07%20at%206.15.07%20PM.png?raw=true",
+            "Link": "https://github.com/Matthensley777/iife-sandwich",
+            "projectId": "2"
+        },
+        "Project2": {
+            "Title": "Seasonal Sales",
+            "Description": "An online retail store that displays prices, and different products based on the season.",
+            "img": "https://github.com/Matthensley777/seasonalsales/blob/master/images/Screen%20Shot%202017-08-26%20at%209.12.12%20AM.png?raw=true",
+            "Link": "https://github.com/Matthensley777/seasonalsales",
+            "projectId": "3"
+        },
+        "Project3": {
+            "Title": "Chatty Knockout Generals",
+            "Description": "A group project where we created a chat forum.",
+            "img": "https://raw.githubusercontent.com/nss-evening-cohort-05/chatty-knockout-generals/master/inverse.jpg",
+            "Link": "https://github.com/nss-evening-cohort-05/chatty-knockout-generals",
+            "projectId": "4"
+        },
+        "Project4": {
+            "Title": "Photo Destination",
+            "Description": "School Capstone",
+            "img": "",
+            "Link": "https://github.com/Matthensley777/Photo-destination",
+            "projectId": "5"
+        },
+        "Project5": {
+            "Title": "Angular Contacts",
+            "Description": "A app that lets a user keep track of all their contacts, add new ones, and remove old ones.",
+            "img": "",
+            "Link": "https://github.com/Matthensley777/Angular-contacts",
+            "projectId": "6"
+        }     
     }
-]
 }
+

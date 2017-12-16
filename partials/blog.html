@@ -10,9 +10,10 @@
 	<div id="blogs">
 		<div ng-repeat="blog in blogs | filter: searchText" class="col-sm-6 col-md-4">
   			<div class="thumbnail">
- 					<h3 class="name">{{blog.title}}</h3>
-   						<p class="details">{{blog.blog}}</p>
-   							<p class="city">{{blog.date}}</p>
+  				<!-- <button class="btn btn-default detail" ng-click="blogDetail(blog.id)"><i class="fa fa-search"></i></button> -->
+ 					<h3 class="title">{{blog.title}}</h3>
+   						<p class="blog">{{blog.blog}}</p>
+   							<p class="date">{{blog.date}}</p>
 			</div>
 		</div>
 	</div>
@@ -20,3 +21,5 @@
 	
 
 </div>
+
+<footer>Copyright Matt Hensley</footer>

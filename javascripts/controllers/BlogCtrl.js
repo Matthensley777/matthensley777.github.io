@@ -6,13 +6,15 @@ const getBlogs = () => {
         BlogService.getMyBlogs($rootScope.id).then((results) => {
             $scope.blogs = results;
         }).catch((error) => {
-            console.log("Error in getUserPhotos", error);
+            console.log("Error in getBlogs", error);
         });
     };
 
 getBlogs();
 
-
+$scope.blogDetail = (id) => {
+        $location.path(`/detail/${id}`);
+    };
 
 
 

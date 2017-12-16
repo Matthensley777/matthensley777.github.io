@@ -1,1 +1,20 @@
-<h1>hello from projects</h1>
+<div class="text-center" id="Projects">
+
+
+	<h1>Projects</h1>
+	<div id="projects">
+		<div ng-repeat="project in projects" class="col-sm-6 col-md-4">
+  			<div class="thumbnail">
+ 					<h3 class="title">{{project.Title}}</h3>
+   						<p class="description">{{project.Description}}</p>
+   							<img class="detailimage" ng-src="{{project.img}}" alt="">
+   							<a href="{{project.Link}}" target="blank">Link to Github repo</a>
+			</div>
+		</div>
+	</div>
+
+	
+
+</div>
+
+<footer>Copyright Matt Hensley</footer>

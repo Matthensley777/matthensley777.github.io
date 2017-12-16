@@ -6,7 +6,6 @@ const getMyBlogs = (blogId) => {
         let myBlogs = [];
         return $q((resolve, reject) => {
             $http.get(`${FIREBASE_CONFIG.databaseURL}/blogPost.json`).then((results) => {
-            	console.log("getMyBlogs", results.data);
                 let blogs = results.data;
                 Object.keys(blogs).forEach((key) => {
                     blogs[key].id = key;
@@ -20,21 +19,47 @@ const getMyBlogs = (blogId) => {
         });
     };
 
+    const getMyProjects = (projectId) => {
+        let myProjects = [];
+        return $q((resolve, reject) => {
+            $http.get(`${FIREBASE_CONFIG.databaseURL}/Projects.json`).then((results) => {
+                let projects = results.data;
+                Object.keys(projects).forEach((key) => {
+                    projects[key].id = key;
+                    myProjects.push(projects[key]);
+                });
+                resolve(myProjects);
+            }).catch((error) => {
+            	reject(error);
+            	console.log("error in getMyProjects", error);
+            });
+        });
+    };
+
+    const getSingleBlog = (blogId) => {
+        return $http.get(`${FIREBASE_CONFIG.databaseURL}/blogPost/${blogId}.json`);	
+    };
+
+const postNewBlog = (newBlog) => {
+        return $http.post(`${FIREBASE_CONFIG.databaseURL}/blogPost.json`, JSON.stringify(newBlog));
+    };
 
 
-
-const createBLogDetails = (blog, id) => {
+const createBlogDetails = (blog, id) => {
         return {
-            "blog": blog.name,
-            "date": blog.img_path,
-            "title": blog.details,
+        	"title": blog.title,
+            "blog": blog.blog,
+            "date": blog.date,
             "id": id
         };
     };
 
     return {
-    	createBLogDetails,
-    	getMyBlogs
+    	createBlogDetails,
+    	getMyBlogs,
+    	getSingleBlog,
+    	postNewBlog,
+    	getMyProjects
     };
 
 });

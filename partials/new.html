@@ -1,0 +1,27 @@
+
+<body ng-app="validationApp" ng-controller="NewCtrl">
+  <div>
+    
+        <div class="form-group">
+          <label>
+            Title:
+           <input type="text" name="Title" class="form-control" ng-model="newBlog.title" required>
+          </label>
+        </div>
+        <div class="form-group">
+        <label>
+        Blog:
+        <input type="text" name="City" class="form-control" style="height:300px; width:600px;" ng-model="newBlog.blog" required>
+      </label>
+        </div>
+        <div class="form-group">
+        <label>
+        Date:
+        <input type="text" name="Details" class="form-control" ng-model="newBlog.date" required>
+      </label>
+        </div>
+        <button btn btn-default ng-click="createNewBlog(newBlog)" ng-disabled="userForm.$invalid">Submit</button>
+      </form>
+      
+  </div>
+</body>
