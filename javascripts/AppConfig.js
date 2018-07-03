@@ -45,10 +45,7 @@ app.run(function($location, $rootScope, FIREBASE_CONFIG, AuthService){
 app.config(function($routeProvider){
   $routeProvider
     
-    .when("/blog", {
-      templateUrl: 'partials/blog.html',
-      controller: 'BlogCtrl',
-    })
+    
     .when("/login", {
       templateUrl: 'partials/login.html',
       controller: 'LoginCtrl',
@@ -68,14 +65,6 @@ app.config(function($routeProvider){
     .when("/navbar", {
       templateUrl: 'partials/navbar.html',
       controller: 'NavCtrl',
-    })
-    .when("/detail/:photoId", {
-      templateUrl: 'partials/detail.html',
-      controller: 'DetailCtrl',
-    })
-    .when("/new", {
-      templateUrl: 'partials/new.html',
-      controller: 'NewCtrl',
     })
     .otherwise('/projects');
 });

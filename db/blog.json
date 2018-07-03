@@ -58,19 +58,19 @@
             "title": "Week 10",
             "id": "blog10",
             "blog": "We did a group project this week called theme parks, we pulled data from firebase to create a theme park website.  It was a challenging project in that they kept changing the rules, JSON, and how it was supposed to layout.",
-            "date": "10/07/17"
+            "date": "11/07/17"
         },
-        "blog10": {
+        "blog_10": {
             "title": "Week 11",
             "id": "blog11",
             "blog": "We learned Angular this week, like Browserfy, it is several files rather than one, the difference is there is also an equal amounto f HTML files as well as service files which are used to pulling in data to use on the controller files.  It is a lot to look at and I find it easy to loose track of where I am on the projects but it seems very real world and useful.",
-            "date": "10/07/17"
+            "date": "11/15/17"
         },
-        "blog11": {
+        "blog_11": {
             "title": "Week 12",
             "id": "blog12",
             "blog": "We did our Capstone this week, it's our final project. My Capstone is a photo site called Photo Destination, it allows a user to upload images, favorite other users images and delete and edit your personal images.  Right now I am working on image upload which will allow a user to upload an image without copying a URL.",
-            "date": "10/07/17"
+            "date": "11/31/17"
         }
     },
     "Projects": {
@@ -105,14 +105,14 @@
         "Project4": {
             "Title": "Photo Destination",
             "Description": "School Capstone",
-            "img": "",
+            "img": "https://github.com/Matthensley777/Photo-destination/blob/master/images/Screen%20Shot%202017-12-16%20at%2010.40.41%20AM.png?raw=true",
             "Link": "https://github.com/Matthensley777/Photo-destination",
             "projectId": "5"
         },
         "Project5": {
             "Title": "Angular Contacts",
             "Description": "A app that lets a user keep track of all their contacts, add new ones, and remove old ones.",
-            "img": "",
+            "img": "https://github.com/Matthensley777/Angular-contacts/blob/master/images/Screen%20Shot%202017-12-16%20at%201.13.39%20PM.png?raw=true",
             "Link": "https://github.com/Matthensley777/Angular-contacts",
             "projectId": "6"
         }     
